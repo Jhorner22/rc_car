@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'RC Car Controller',
       theme: ThemeData(
-
+        
         primarySwatch: Colors.blue,
       ),
       home: const MyHomePage(title: 'RC Car Controller'),
@@ -51,22 +51,48 @@ class _MyHomePageState extends State<MyHomePage> {
                 ElevatedButton(
                   onPressed: (){},
                   onLongPress: (){},
-                  child: const Text('Left Wheel Forward'),
+                  // child: const Text('Left Wheel Forward'),
+                  child: const Align(
+                    alignment: Alignment.center,
+                    child: Text(
+                      "Left Wheel Forward",
+                      style: TextStyle(
+                      fontSize: 50,
+                      color: Colors.black,
+                      ),
+                      textAlign: TextAlign.center,
+                    )
+                  ),
                   style: ElevatedButton.styleFrom(
                     fixedSize: const Size(500, 500),
-                    animationDuration: kThemeChangeDuration
+                    animationDuration: kThemeChangeDuration,
+                    primary: const Color.fromARGB(215, 255, 245, 61),
+                    
                   )
                 ),
                 const SizedBox(height: 100,),
-                ElevatedButton(
+               ElevatedButton(
                   onPressed: (){},
                   onLongPress: (){},
-                  child: const Text('Left Wheel Backwards'),
+                  // child: const Text('Left Wheel Forward'),
+                  child: const Align(
+                    alignment: Alignment.center,
+                    child: Text(
+                      "Left Wheel Backward",
+                      style: TextStyle(
+                      fontSize: 50,
+                      color: Colors.black,
+                      ),
+                      textAlign: TextAlign.center,
+                    )
+                  ),
                   style: ElevatedButton.styleFrom(
                     fixedSize: const Size(500, 500),
-                    animationDuration: kThemeChangeDuration
+                    animationDuration: kThemeChangeDuration,
+                    primary: const Color.fromARGB(215, 255, 245, 61),
+                    
                   )
-                )
+                ),
               ],
             ),
             const SizedBox(width: 100,),
@@ -77,22 +103,48 @@ class _MyHomePageState extends State<MyHomePage> {
                 ElevatedButton(
                   onPressed: (){},
                   onLongPress: (){},
-                  child: const Text('Right Wheel Forward'),
+                  // child: const Text('Left Wheel Forward'),
+                  child: const Align(
+                    alignment: Alignment.center,
+                    child: Text(
+                      "Right Wheel Forward",
+                      style: TextStyle(
+                      fontSize: 50,
+                      color: Colors.black,
+                      ),
+                      textAlign: TextAlign.center,
+                    )
+                  ),
                   style: ElevatedButton.styleFrom(
                     fixedSize: const Size(500, 500),
-                    animationDuration: kThemeChangeDuration
+                    animationDuration: kThemeChangeDuration,
+                    primary: const Color.fromARGB(215, 255, 245, 61),
+                    
                   )
-                  ),
+                ),
                 const SizedBox(height: 100,),
                 ElevatedButton(
                   onPressed: (){},
                   onLongPress: (){},
-                  child: const Text('Right Wheel Backwards'),
+                  // child: const Text('Left Wheel Forward'),
+                  child: const Align(
+                    alignment: Alignment.center,
+                    child: Text(
+                      "Right Wheel Backward",
+                      style: TextStyle(
+                      fontSize: 50,
+                      color: Colors.black,
+                      ),
+                      textAlign: TextAlign.center,
+                    )
+                  ),
                   style: ElevatedButton.styleFrom(
                     fixedSize: const Size(500, 500),
-                    animationDuration: kThemeChangeDuration
+                    animationDuration: kThemeChangeDuration,
+                    primary: const Color.fromARGB(215, 255, 245, 61),
+                    
                   )
-                )
+                ),
               ],
             )
           ],
