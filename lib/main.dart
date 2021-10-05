@@ -50,26 +50,48 @@ class _MyHomePageState extends State<MyHomePage> {
               children: [
                 ElevatedButton(
                   onPressed: (){},
-                  child: const Text('Left Wheel Forward')),
-                const SizedBox(height: 10,),
+                  onLongPress: (){},
+                  child: const Text('Left Wheel Forward'),
+                  style: ElevatedButton.styleFrom(
+                    fixedSize: const Size(500, 500),
+                    animationDuration: kThemeChangeDuration
+                  )
+                ),
+                const SizedBox(height: 100,),
                 ElevatedButton(
                   onPressed: (){},
-                  child: const Text('Left Wheel Backwards')
+                  onLongPress: (){},
+                  child: const Text('Left Wheel Backwards'),
+                  style: ElevatedButton.styleFrom(
+                    fixedSize: const Size(500, 500),
+                    animationDuration: kThemeChangeDuration
+                  )
                 )
               ],
             ),
-            const SizedBox(width: 10,),
+            const SizedBox(width: 100,),
             Column(
               crossAxisAlignment: CrossAxisAlignment.center,
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 ElevatedButton(
                   onPressed: (){},
-                  child: const Text('Right Wheel Forward')),
-                const SizedBox(height: 10,),
+                  onLongPress: (){},
+                  child: const Text('Right Wheel Forward'),
+                  style: ElevatedButton.styleFrom(
+                    fixedSize: const Size(500, 500),
+                    animationDuration: kThemeChangeDuration
+                  )
+                  ),
+                const SizedBox(height: 100,),
                 ElevatedButton(
                   onPressed: (){},
-                  child: const Text('Right Wheel Backwards')
+                  onLongPress: (){},
+                  child: const Text('Right Wheel Backwards'),
+                  style: ElevatedButton.styleFrom(
+                    fixedSize: const Size(500, 500),
+                    animationDuration: kThemeChangeDuration
+                  )
                 )
               ],
             )
