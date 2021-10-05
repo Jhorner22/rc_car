@@ -39,7 +39,6 @@ class _MyHomePageState extends State<MyHomePage> {
       
         title: Text(widget.title),
       ),
-
         body: Row(
           mainAxisAlignment: MainAxisAlignment.center,
           // mainAxisAlignment: MainAxisAlignment.center,
@@ -57,14 +56,14 @@ class _MyHomePageState extends State<MyHomePage> {
                     child: Text(
                       "Left Wheel \n Forward",
                       style: TextStyle(
-                      fontSize: 50,
+                      //fontSize: 50,
                       color: Colors.black,
                       ),
                       textAlign: TextAlign.center,
                     )
                   ),
                   style: ElevatedButton.styleFrom(
-                    fixedSize: const Size(500, 500),
+                    //fixedSize: const Size(500, 500),
                     animationDuration: kThemeChangeDuration,
                     primary: const Color.fromARGB(215, 255, 245, 61),
                     
@@ -78,16 +77,16 @@ class _MyHomePageState extends State<MyHomePage> {
                   child: const Align(
                     alignment: Alignment.center,
                     child: Text(
-                      "Left Wheel Backward",
+                      "Left Wheel \n Backward",
                       style: TextStyle(
-                      fontSize: 50,
+                      //fontSize: 50,
                       color: Colors.black,
                       ),
                       textAlign: TextAlign.center,
                     )
                   ),
                   style: ElevatedButton.styleFrom(
-                    fixedSize: const Size(500, 500),
+                    //fixedSize: const Size(500, 500),
                     animationDuration: kThemeChangeDuration,
                     primary: const Color.fromARGB(215, 255, 245, 61),
                     
@@ -95,7 +94,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 ),
               ],
             ),
-            const SizedBox(width: 100,),
+            const SizedBox(width: 50,),
             Column(
               crossAxisAlignment: CrossAxisAlignment.center,
               mainAxisAlignment: MainAxisAlignment.center,
@@ -109,14 +108,14 @@ class _MyHomePageState extends State<MyHomePage> {
                     child: Text(
                       "Right Wheel \n Forward",
                       style: TextStyle(
-                      fontSize: 50,
+                      //fontSize: 50,
                       color: Colors.black,
                       ),
                       textAlign: TextAlign.center,
                     )
                   ),
                   style: ElevatedButton.styleFrom(
-                    fixedSize: const Size(500, 500),
+                    //fixedSize: const Size(500, 500),
                     animationDuration: kThemeChangeDuration,
                     primary: const Color.fromARGB(215, 255, 245, 61),
                     
@@ -130,16 +129,16 @@ class _MyHomePageState extends State<MyHomePage> {
                   child: const Align(
                     alignment: Alignment.center,
                     child: Text(
-                      "Right Wheel Backward",
+                      "Right Wheel \n Backward",
                       style: TextStyle(
-                      fontSize: 50,
+                      //fontSize: 50,
                       color: Colors.black,
                       ),
                       textAlign: TextAlign.center,
                     )
                   ),
                   style: ElevatedButton.styleFrom(
-                    fixedSize: const Size(500, 500),
+                    //fixedSize: const Size(500, 500),
                     animationDuration: kThemeChangeDuration,
                     primary: const Color.fromARGB(215, 255, 245, 61),
                     
