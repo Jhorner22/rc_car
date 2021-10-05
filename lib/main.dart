@@ -55,7 +55,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   child: const Align(
                     alignment: Alignment.center,
                     child: Text(
-                      "Left Wheel Forward",
+                      "Left Wheel \n Forward",
                       style: TextStyle(
                       fontSize: 50,
                       color: Colors.black,
@@ -107,7 +107,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   child: const Align(
                     alignment: Alignment.center,
                     child: Text(
-                      "Right Wheel Forward",
+                      "Right Wheel \n Forward",
                       style: TextStyle(
                       fontSize: 50,
                       color: Colors.black,
